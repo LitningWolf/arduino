@@ -84,6 +84,29 @@ if (now.minute() % 5 == 3)
   mcp1.digitalWrite(2, HIGH);
 if (now.minute() % 5 == 4)
   mcp1.digitalWrite(3, HIGH);
+if (now.minute() % 5 == 5)
+  mcp1.digitalWrite(4, HIGH);
+if (now.minute() % 5 == 10)
+  mcp1.digitalWrite(5, HIGH);
+if (now.minute() % 5 == 15)
+  mcp1.digitalWrite(6, HIGH);
+if (now.minute() % 5 == 20)
+  mcp1.digitalWrite(7, HIGH);
+if (now.minute() % 5 == 25)
+  mcp1.digitalWrite(8, HIGH);
+if (now.minute() % 5 == 30)
+  mcp1.digitalWrite(9, HIGH);
+if (now.minute() % 5 == 35)
+  mcp1.digitalWrite(10, HIGH);
+if (now.minute() % 5 == 40)
+  mcp1.digitalWrite(11, HIGH);
+if (now.minute() % 5 == 45)
+  mcp1.digitalWrite(12, HIGH);
+if (now.minute() % 5 == 50)
+  mcp1.digitalWrite(13, HIGH);
+if (now.minute() % 5 == 55)
+  mcp1.digitalWrite(14, HIGH);
+
 //off
 if (now.minute() % 10 == 0)
   mcp1.digitalWrite(0, LOW);
@@ -101,4 +124,26 @@ if (now.minute() % 10 == 5)
   mcp1.digitalWrite(2, LOW);
 if (now.minute() % 10 == 5)
   mcp1.digitalWrite(3, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(4, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(5, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(6, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(7, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(8, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(9, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(10, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(11, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(12, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(13, LOW);
+if (now.minute() % 5 == 0)
+  mcp1.digitalWrite(14, LOW);
 }
