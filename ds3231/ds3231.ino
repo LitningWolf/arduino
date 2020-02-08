@@ -75,7 +75,7 @@ void loop () {
 
     //lights
 //on
-
+// leds 1-4
 if (now.minute() % 5 == 1)
   mcp1.digitalWrite(0, HIGH);
 if (now.minute() % 5 == 2)
@@ -84,6 +84,7 @@ if (now.minute() % 5 == 3)
   mcp1.digitalWrite(2, HIGH);
 if (now.minute() % 5 == 4)
   mcp1.digitalWrite(3, HIGH);
+//leds 5-55
 if (now.minute() % 5 == 5)
   mcp1.digitalWrite(4, HIGH);
 if (now.minute() % 5 == 10)
@@ -108,6 +109,7 @@ if (now.minute() % 5 == 55)
   mcp1.digitalWrite(14, HIGH);
 
 //off
+// leds 1-4
 if (now.minute() % 10 == 0)
   mcp1.digitalWrite(0, LOW);
 if (now.minute() % 10 == 0)
@@ -116,6 +118,7 @@ if (now.minute() % 10 == 0)
   mcp1.digitalWrite(2, LOW);
 if (now.minute() % 10 == 0)
   mcp1.digitalWrite(3, LOW);
+// leds 5-55
 if (now.minute() % 10 == 5)
   mcp1.digitalWrite(0, LOW);
 if (now.minute() % 10 == 5)
